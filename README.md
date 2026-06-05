@@ -103,7 +103,13 @@ The Software review dataset contains the following fields:
     pip install mrjob nltk pandas matplotlib jupyterlab
     ```
 
-4. Download archived [dataset](https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Software.jsonl.gz) and [metadata] (https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Software.jsonl.gz)
+    Then install vader lexicon using
+
+   ```bash
+    python -c "import nltk; nltk.downlad("vader_lexicon")"
+   ```
+
+5. Download archived [dataset](https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Software.jsonl.gz) and [metadata] (https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Software.jsonl.gz)
 
     or use 
 
@@ -133,7 +139,7 @@ The Software review dataset contains the following fields:
     └── [473M]  software.jsonl.gz
     ```
 
-5. At this point, your setup is done and ready to run MapReduce jobs 
+6. At this point, your setup is done and ready to run MapReduce jobs 
 
 # Tasks
 
