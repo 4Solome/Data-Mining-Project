@@ -32,6 +32,8 @@ The project uses the [Amazon Reviews Dataset](https://amazon-reviews-2023.github
 
 The complete dataset contains over [571 million reviews and ratings](https://amazon-reviews-2023.github.io/#what-s-new) collected from Amazon products across multiple categories. 
 
+> [!IMPORTANT]
+> 
 > However, because processing the entire dataset would require substantial computational resources, this project uses **only the Software category dataset**. 
 > This subset contains reviews and ratings for software products sold on Amazon and serves as the basis for all analyses presented in this project.
 
