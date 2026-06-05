@@ -28,7 +28,7 @@ The project analyzes customer reviews to extract useful insights, including the 
 
 # Dataset
 
-The project uses the Amazon Reviews Dataset collected in 2023 by [McAuley Lab](https://cseweb.ucsd.edu/~jmcauley/), a large-scale collection of Amazon product reviews and metadata compiled for recommendation systems and data mining research.
+The project uses the [Amazon Reviews Dataset](https://amazon-reviews-2023.github.io/) collected in 2023 by [McAuley Lab](https://cseweb.ucsd.edu/~jmcauley/), a large-scale collection of Amazon product reviews and metadata compiled for recommendation systems and data mining research.
 
 The complete dataset contains over [571 million reviews and ratings](https://amazon-reviews-2023.github.io/#what-s-new) collected from Amazon products across multiple categories. 
 
